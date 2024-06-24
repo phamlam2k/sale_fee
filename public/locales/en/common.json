@@ -1,0 +1,9 @@
+{
+  "title": {
+    "domain": "Domain Management",
+    "source": "Source Management",
+    "pipeline": "Pipeline Management",
+    "data-view": "Data View",
+    "data-mining": "Data Mining"
+  }
+}

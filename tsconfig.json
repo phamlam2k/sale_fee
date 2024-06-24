@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "es5",
+    "allowJs": true,
+    "allowUmdGlobalAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["public/*"],
+      "@modules/*": ["src/modules/*"],
+      "@common/*": ["src/common/*"],
+      "@libs/*": ["src/libs/*"],
+      "@type/*": ["src/types/*"],
+      "@store/*": ["src/store/*"],
+      "@import/*": ["src/import/*"]
+    }
+  },
+  "files": ["src/index.tsx"],
+  "include": [
+    "svg.d.ts",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/**/*.ts",
+    "**/**/*.tsx",
+    "**/**/**/*.tsx",
+    "**/**/**/*.ts",
+    "**/*.svg",
+    "src",
+    "jest.setup.ts"
+  ],
+  "exclude": ["node_modules"]
+}
